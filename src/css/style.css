@@ -2,29 +2,65 @@ p {
   line-height: 2rem;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .main-title {
   font-family: 'Rambla', sans-serif;
+  text-shadow: 5px 5px teal;
 }
 
 .bold-title {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.email-info {
-  display: flex;
+.parallax-container1 {
+  background-image: url('../img/driving.jpg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
 }
 
-.phone-info {
-  display: flex;
+.parallax-container2 {
+  background-image: url('../img/overpass.jpeg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.parallax-container3 {
+  background-image: url('../img/aerial.jpg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .parallax-container4 {
+  background-image: url('../img/road.jpg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.parallax-container4 {
+  height: 500px;
+  object-fit: fill;
+}
+
+/* video {
+  object-fit: fill;
+  height: auto;
+  width: 100%;
+} */
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 450px;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, 0.9);
@@ -32,6 +68,19 @@ img {
 
 .parallax-container .section {
   width: 100%;
+}
+
+table {
+  width: auto;
+  margin: 0px auto;
+}
+
+tr {
+  border: 0;
+}
+
+.table-icon {
+  padding: 10px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -53,6 +102,7 @@ img {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
