@@ -65,7 +65,7 @@ p {
 }
 
 video {
-  max-width: 100%;
+  min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
@@ -100,11 +100,11 @@ tr {
 }
 
 @media only screen and (max-width: 790px) {
-  video {
-    object-fit: fill;
-  }
-  .parallax-container4 {
-    height: 10px;
+  .parallax-container4 video {
+    position: absolute;
+    width: 230px;
+    height: 300px;
+    object-fit: cover;
   }
 }
 
